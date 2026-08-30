@@ -3,7 +3,60 @@ GET http://localhost:3000/
 ### Buckets
 GET http://localhost:3000/buckets
 
-###
+### Rhea Bucket
+GET http://localhost:3000/rhea
+
+### Refresh Rhea Bucket
+GET http://localhost:3000/rhea/numberOfCoffee?refresh=true
+
+### number of coffees this year 
+GET http://localhost:3000/rhea/numberOfCoffee
+
+### number of coffees with Bright this year
+GET http://localhost:3000/rhea/numberCoffeeWithBright
+
+### number of coffees without Bright
+GET http://localhost:3000/rhea/numberCoffeeWithoutBright
+
+### most common month for coffee orders
+GET http://localhost:3000/rhea/mostCoffeeMonth
+
+### favorite drink
+GET http://localhost:3000/rhea/favoriteDrink
+
+### drink tally
+GET http://localhost:3000/rhea/drinkTally
+
+### top locations for coffee orders
+GET http://localhost:3000/rhea/locationMode
+
+### hot or cold majority
+GET http://localhost:3000/rhea/hotOrCold
+
+### top drink sizes 
+GET http://localhost:3000/rhea/topDrinkSizes
+
+### number of special drinks
+GET http://localhost:3000/rhea/numberOfSpecial
+
+### ranking of special drinks
+GET http://localhost:3000/rhea/specialsRank
+
+### earliest coffee
+GET http://localhost:3000/rhea/earliestCoffee
+
+### latest coffee
+GET http://localhost:3000/rhea/latestCoffee
+
+### order name tally
+GET http://localhost:3000/rhea/orderNameTally
+
+### oddest ordering name
+GET http://localhost:3000/rhea/oddOrderName
+
+### starbucks
+GET http://localhost:3000/rhea/starbucksLocations
+
 
 POST http://localhost:3000/users
 Content-Type: application/json
